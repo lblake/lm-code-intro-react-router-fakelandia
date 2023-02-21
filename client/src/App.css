@@ -13,6 +13,10 @@
   color: #888;
 }
 
+.notfound  {
+  text-align: center;
+ }
+ 
 .footer {
   position: fixed;
   left: 0;

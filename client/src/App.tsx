@@ -16,10 +16,10 @@ const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route index element={<Home />} />
+      <Route path='*' element={<NotFound />} />
       <Route path='misdemeanours' element={<Misdemeanours />} />
       <Route path='confession' element={<Confession />} />
-      <Route path="/404" element={ <NotFound /> } />
-
+      {/* <Route path="/404" element={ <NotFound /> } /> */}
     </Route>
   )
 );
