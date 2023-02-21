@@ -1,4 +1,4 @@
-import Form from './Form';
+import Form from '../form/Form';
 
 const Confession: React.FC = () => {
   return (

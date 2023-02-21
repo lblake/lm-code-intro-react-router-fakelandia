@@ -6,9 +6,9 @@ import {
   RouterProvider,
 } from 'react-router-dom';
 import './App.css';
-import Home from './components/pages/home';
-import Misdemeanours from './components/pages/misdemeanours';
-import Confession from './components/pages/confession';
+import Home from './components/pages/Home';
+import Misdemeanours from './components/pages/Misdemeanours';
+import Confession from './components/pages/Confession';
 import Layout from './components/layouts/layout';
 import NotFound from './components/pages/NotFound';
 
