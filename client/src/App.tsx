@@ -10,6 +10,7 @@ import Home from './components/pages/home';
 import Misdemeanours from './components/pages/misdemeanours';
 import Confession from './components/pages/confession';
 import Layout from './components/layouts/layout';
+import NotFound from './components/pages/NotFound';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +18,8 @@ const router = createBrowserRouter(
       <Route index element={<Home />} />
       <Route path='misdemeanours' element={<Misdemeanours />} />
       <Route path='confession' element={<Confession />} />
+      <Route path="/404" element={ <NotFound /> } />
+
     </Route>
   )
 );
