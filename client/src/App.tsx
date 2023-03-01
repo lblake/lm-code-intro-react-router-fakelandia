@@ -7,18 +7,19 @@ import {
 } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
-import Misdemeanours from './components/pages/Misdemeanours';
 import Confession from './components/pages/Confession';
-import Layout from './components/layouts/layout';
+import Layout from './components/layouts/Layout';
 import NotFound from './components/pages/NotFound';
+import Misdemeanour from './components/pages/Misdemeanour';
+import Form from './components/form/Form';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>
       <Route index element={<Home />} />
       <Route path='*' element={<NotFound />} />
-      <Route path='misdemeanours' element={<Misdemeanours />} />
-      <Route path='confession' element={<Confession />} />
+      <Route path='misdemeanours' element={<Misdemeanour />} />
+      <Route path='confession' element={<Form />} />
       {/* <Route path="/404" element={ <NotFound /> } /> */}
     </Route>
   )

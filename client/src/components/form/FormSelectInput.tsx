@@ -1,6 +1,6 @@
 import { Misdemeanours, MISDEMEANOURS } from '../../data/MisdemeanourRecord';
-import getMisdemeanourText from '../helpers/MisdemeanourDescription';
-import { NameValueStringPair } from '../interfaces/SelectOptionChoices';
+import getMisdemeanourText from '../../helpers/MisdemeanourDescription';
+import { NameValueStringPair } from '../../interfaces/SelectOptionChoices';
 import FormSelectOption from './FormSelectOption';
 
 interface Props {
